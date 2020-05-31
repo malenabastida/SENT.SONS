@@ -1,0 +1,163 @@
+html,
+ 
+body{
+    font-family: "Raleway", "Merriweather";
+    height: 100%;
+	background: none;
+}
+
+h1,
+h2,
+h3{
+    color: #ce7539;
+    font-weight: 400;
+	font-family: "Raleway";
+}
+h4,
+h5,
+h6 {
+    color: maroon;
+}
+
+p{
+    color: black;
+    font-weight: 200;
+	font-family: "Merriweather";
+}
+
+/*Header tags!*/
+
+.header-section {
+	text-align: center;
+}
+
+.header-section a{
+	display: inline-block;
+}
+
+.header-section .main-menu {
+	text-align: center;
+}
+
+.header-section .main-menu ul li {
+	display: inline-block;
+    position: relative;
+    margin-right: 60px;
+}
+
+.header-section .main-menu ul li:after {
+	position: absolute;
+	background: rgb(235, 212, 114);
+}
+
+.header-section .main-menu ul li a {
+	color:black;
+	font-size: 20px;
+	font-weight: 700;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.header-section .main-menu ul li:hover a {
+	color: rgb(252, 173, 2);
+}
+
+.header-section .main-menu ul li:hover a:after {
+	opacity: 1;
+}
+
+.header-section .main-menu ul li.now a {
+	color:rgb(252, 173, 2);
+}
+
+.header-section .main-menu ul li.now a:after {
+	opacity: 1;
+}
+
+.header-section .main-menu ul li:hover .sub-menu {
+	visibility: visible;
+	opacity: 1;
+	margin-top: 16px;
+}
+
+.header-section .main-menu ul .sub-menu {
+	position: absolute;
+	list-style: none;
+	width: 130px;
+	left: 0;
+	top: 100%;
+	padding: 20px 0 10px;
+	visibility: hidden;
+	opacity: 0;
+	margin-top: 50px;
+	text-align: left;
+	background: white;
+    transition: all 0.4s;
+    z-index: 99;
+}
+
+.header-section .main-menu ul .sub-menu li {
+	display: block;
+	margin-right: 0;
+}
+
+.header-section .main-menu ul .sub-menu li:after {
+	display: none;
+}
+
+.header-section .main-menu ul .sub-menu li a {
+	display: block;
+	color: #000;
+	margin-left: 5px;
+    padding: 0.5em 0.5em;
+    font-size: 16px;
+}
+
+.header-section .main-menu ul .sub-menu li a:hover {
+	color: rgb(175, 80, 12);
+}
+
+/*Top Article Tags!*/ 
+
+.category{
+    text-align: left;
+    padding-top: 60px;   
+    padding-right: 60px;
+    padding-left:60px;
+    padding-bottom: 20px;
+}
+.top-article{
+    background: none;
+    padding-bottom: 0;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.top-article a{
+   display: inline-block;
+   position: relative;
+}
+
+/*Top Articles of the Month Tags!*/ 
+
+.articles-section-container {
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    width: 600px;
+    display: flex;
+    align-items: stretch;
+    justify-items: center;
+}
+
+.article-item {
+    width: 250px;
+    padding: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    align-content: stretch;
+}
+
