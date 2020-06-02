@@ -142,7 +142,7 @@ p{
 .top-article-category,
 .articles-month-category{
     text-align: left;
-    padding-top: 10%;   
+    padding-top: 3%;   
     padding-right: 5%;
     padding-left: 5%;
 }
@@ -238,10 +238,10 @@ p{
 
 
 .footer-section {
+	padding: 5%;
+	text-align: center;
+	margin-bottom: 10%;
 	background-image: none;
-    padding: 10%;
-    text-align: center;
-    margin-bottom: 10%;
 }
 
 .footer-section a{
@@ -264,8 +264,8 @@ p{
 }
 
 .footer-section .subscribe-form input {
-    width: 50%;
-    height: 50px;
+	width: 50%;
+	height: 50px;
 	border: 2% solid black;
 	display: inline-block;
 	margin-right: 2%;
