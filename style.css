@@ -534,14 +534,24 @@ p{
     .social-links li img{
         width: 30%;
 	text-align: center;
+	display: block;
     }
 	
     .feeling iframe{
-        padding: 5%;
-       	width: 100%;
-	text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
     }
-	
+
+    .feeling .article-section-container{
+        text-align: center;
+        display: block;
+        width: 100%;
+        padding: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     .team{
         text-align: center;
         display: block;
