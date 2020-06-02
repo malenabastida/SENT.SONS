@@ -539,7 +539,7 @@ p{
 	display: block;
     }
 	
-    .feeling video{
+    .feeling .video{
         margin-left: 2%;
         margin-right: 5%;
         width: 50%;
