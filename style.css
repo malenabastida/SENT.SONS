@@ -432,6 +432,13 @@ p{
     padding-top: 10%;
 }
 
+.feeling video{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 5%;
+}
+
 .feeling .shrug-gif{
     text-align: center;
     margin: 0 auto;
@@ -532,7 +539,7 @@ p{
 	display: block;
     }
 	
-    .feeling iframe{
+    .feeling video{
         margin-left: 2%;
         margin-right: 5%;
         width: 100%;
