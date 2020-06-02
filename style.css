@@ -470,27 +470,12 @@ p{
 }
 
 .feeling iframe{
-    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
     display: block;
     padding: 5%;
-    position:absolute; 	
+    position:center; 	
 }
-
-.feeling .container {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-}
-
-.feeling .video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-	
 
 
 
