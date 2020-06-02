@@ -530,6 +530,11 @@ p{
         -webkit-user-select: none;
         -moz-user-select: none;
     }
+	
+    .social-links li img{
+        width: 30%;
+        display: block;
+    }
 
 }
 
