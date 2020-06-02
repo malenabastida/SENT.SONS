@@ -537,8 +537,7 @@ p{
     }
 	
     .feeling iframe{
-        margin-left: 15%;
-        margin-right: 5%;
+        padding: 5%;
        	width: 100%;
 	text-align: center;
     }
