@@ -544,17 +544,18 @@ p{
     }
 
     .feeling .article-section-container{
-        text-align: center;
+        text-align: left;
         display: block;
         width: 100%;
         padding: 5%;
         margin-left: 5%;
-        margin-right: 5%;
+        margin-right: 50%;
     }
 
     .team{
         text-align: center;
         display: block;
+	position:relative;
     }
 
      .team .person-card{
@@ -562,6 +563,7 @@ p{
         padding: 5%;
         margin-left: 5%;
         margin-right: 5%;
+	text-align: center;
     }
 }
 
