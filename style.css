@@ -533,14 +533,15 @@ p{
 	
     .social-links li img{
         width: 5%;
-        display: block;
+        display: inline-block;
+	text-align: center;
     }
 	
     .feeling iframe{
         margin-left: 15%;
         margin-right: 5%;
        	width: 100%;
-	display: inline-block;
+	text-align: center;
     }
 }
 
