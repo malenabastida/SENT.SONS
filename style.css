@@ -525,15 +525,14 @@ p{
     }
 
     .social-links li{
-        display: block;
+        display: inline-block;
         list-style-type: none;
         -webkit-user-select: none;
         -moz-user-select: none;
     }
 	
     .social-links li img{
-        width: 5%;
-        display: inline-block;
+        width: 30%;
 	text-align: center;
     }
 	
