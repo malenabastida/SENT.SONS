@@ -342,6 +342,7 @@ p{
 .contact-form h1{
     padding-bottom: 2%;
 }
+
 .contact-form input {
 	width: 95%;
 	height: 64px;
@@ -431,13 +432,6 @@ p{
     padding-top: 10%;
 }
 
-.feeling video{
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    padding: 5%;
-}
-
 .feeling .shrug-gif{
     text-align: center;
     margin: 0 auto;
@@ -476,10 +470,11 @@ p{
 }
 
 .feeling iframe{
-    text-align: center;
     margin: 0 auto;
     display: block;
     padding: 5%;
+    position:absolute; 
+	
 }
 
 
