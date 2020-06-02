@@ -1,3 +1,5 @@
+/*GENERAL*/ 
+
 html,
  
 body{
@@ -11,7 +13,7 @@ h2,
 h3{
     color: #ce7539;
     font-weight: 400;
-	font-family: "Raleway";
+    font-family: "Raleway";
 }
 h4,
 h5,
@@ -22,10 +24,27 @@ h6 {
 p{
     color: black;
     font-weight: 200;
-	font-family: "Merriweather";
+    font-family: "Merriweather";
+    line-height: 1.6;
 }
 
-/*Header tags!*/
+
+/* Preloder */
+
+.preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-image: url('preloader.gif');
+    background-repeat: no-repeat; 
+    background-color: #FFF;
+    background-position: center;
+}
+
+/*HEADER*/
 
 .header-section {
 	text-align: center;
@@ -42,7 +61,7 @@ p{
 .header-section .main-menu ul li {
 	display: inline-block;
     position: relative;
-    margin-right: 60px;
+    margin-right: 5%;
 }
 
 .header-section .main-menu ul li:after {
@@ -51,8 +70,8 @@ p{
 }
 
 .header-section .main-menu ul li a {
-	color:black;
-	font-size: 20px;
+    color:black;
+    font-size: 120%;
 	font-weight: 700;
     position: relative;
     transition: all 0.2s;
@@ -77,19 +96,19 @@ p{
 .header-section .main-menu ul li:hover .sub-menu {
 	visibility: visible;
 	opacity: 1;
-	margin-top: 16px;
+	margin-top: 5%;
 }
 
 .header-section .main-menu ul .sub-menu {
 	position: absolute;
 	list-style: none;
-	width: 130px;
+	width: 160%;
 	left: 0;
 	top: 100%;
-	padding: 20px 0 10px;
+	padding: 10% 0 5%;
 	visibility: hidden;
 	opacity: 0;
-	margin-top: 50px;
+	margin-top: 20%;
 	text-align: left;
 	background: white;
     transition: all 0.4s;
@@ -108,27 +127,31 @@ p{
 .header-section .main-menu ul .sub-menu li a {
 	display: block;
 	color: #000;
-	margin-left: 5px;
-    padding: 0.5em 0.5em;
-    font-size: 16px;
+	margin-left: 5%;
+    padding: 5%;
+    font-size: 110%;
 }
 
 .header-section .main-menu ul .sub-menu li a:hover {
 	color: rgb(175, 80, 12);
 }
 
-/*Top Article Tags!*/ 
 
-.category{
+/*CATEGORY*/ 
+
+.top-article-category,
+.articles-month-category{
     text-align: left;
-    padding-top: 60px;   
-    padding-right: 60px;
-    padding-left:60px;
-    padding-bottom: 20px;
+    padding-top: 10%;   
+    padding-right: 5%;
+    padding-left: 5%;
 }
+
+/*TOP ARTICLE*/ 
+
 .top-article{
-    background: none;
-    padding-bottom: 0;
+    background-image: radial-gradient(circle, rgb(230, 171, 207), rgb(170, 212, 247));
+    padding-top: 5%;
     position: relative;
     text-align: center;
     z-index: 1;
@@ -139,25 +162,326 @@ p{
    position: relative;
 }
 
-/*Top Articles of the Month Tags!*/ 
+/*TOP ARTICLES THIS MONTH*/ 
 
 .articles-section-container {
-    margin-right: 60px;
-    margin-left: 60px;
-    margin-bottom: 20px;
     text-align: center;
     display: block;
-    width: 600px;
     display: flex;
     align-items: stretch;
     justify-items: center;
+    width: 100%;
 }
 
 .article-item {
-    width: 250px;
-    padding: 50px;
+    width: 30%;
+    padding: 5%;
     display: inline-block;
     vertical-align: middle;
     align-content: stretch;
 }
+
+/*ABOUT-US Page*/ 
+
+.about-section {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color:none;
+    color: white;
+}
+
+.person-card{
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+    margin-bottom: 5%;
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: stretch;
+    text-align: left;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 2%;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.team{
+    margin-left: 10%;
+}
+
+.button:hover {
+    background-color: maroon;
+}
+
+.button span{
+    color: white;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: "Raleway"
+}
+
+/*FOOTER*/
+
+
+.footer-section {
+	background-image: none;
+    padding: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.footer-section a{
+	display: inline-block;
+}
+
+.footer-section p {
+	color: #7a818d;
+}
+
+.footer-section .subscribe-form {
+	margin-bottom: 5%;
+	padding-top: 2%;
+}
+
+.footer-section .subscribe-form h3 {
+	color: darkgray;
+	font-weight: 700;
+	margin-bottom: 2%;
+}
+
+.footer-section .subscribe-form input {
+    width: 50%;
+    height: 50px;
+	border: 2% solid black;
+	display: inline-block;
+	margin-right: 2%;
+	padding-left: 5%;
+	padding-right: 1%;
+	font-size: 100%;
+	font-style: italic;
+	color: darkgray;
+}
+
+.footer-section .subscribe-form input::-webkit-input-placeholder{
+	color: black;
+}
+
+.footer-section .subscribe-form input::-moz-placeholder {
+	color: black;
+}
+
+.footer-section .subscribe-form input:-ms-input-placeholder {
+	color: black;
+}
+
+.footer-section .subscribe-form input::-ms-input-placeholder {
+	color: black;
+}
+
+.footer-section .subscribe-form input::placeholder {
+	color: black;
+}
+
+.footer-section .subscribe-form button{
+	border: 5% solid salmon;
+	background: lightsalmon;
+	font-size: 110%;
+	font-weight: 700;
+	color: #fff;
+	padding: 2% 2%;
+	display: inline-block;
+	cursor: pointer;
+	min-width: 12%;
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links li{
+    display: inline-block;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.social-links li a{
+    border-bottom: none;
+}
+
+.social-links li img{
+    margin-top: 5%;
+    margin-right: 10%;
+    padding-right: 10%;
+}
+
+
+/*CONTACT US*/
+
+.contact-form {
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 80%;
+}
+
+.contact-form h1{
+    padding-bottom: 2%;
+}
+.contact-form input {
+	width: 95%;
+	height: 64px;
+	border: 0.2% solid #F5F6FA;
+	background: #F5F6FA;
+    margin-bottom: 2%;
+    margin-right: 10%;
+	padding-left: 10%;
+	color: #353535;
+	font-size: 110%;
+}
+
+.contact-form input::-webkit-input-placeholder {    
+    text-align: left;
+}
+
+.contact-form input::-moz-placeholder {
+	font-style: italic;
+}
+
+.contact-form input:-ms-input-placeholder {
+	font-style: italic;
+}
+
+.contact-form input::-ms-input-placeholder {
+	font-style: italic;
+}
+
+.contact-form input::placeholder {
+	font-style: italic;
+}
+
+.contact-form textarea {
+	width: 85%;
+    height: 430px;
+    border: 0.01% solid #F5F6FA;
+	background: #F5F6FA;
+	resize: none;
+	padding-left: 10%;
+	padding-top: 5%;
+	padding-right: 10%;
+	color: #353535;
+	font-size: 110%;
+	margin-bottom: 10%;
+}
+
+.contact-form textarea::-webkit-input-placeholder {
+	font-style: italic;
+}
+
+.contact-form textarea::-moz-placeholder {
+	font-style: italic;
+}
+
+.contact-form textarea:-ms-input-placeholder {
+	font-style: italic;
+}
+
+.contact-form textarea::-ms-input-placeholder {
+	font-style: italic;
+}
+
+.contact-form textarea::placeholder {
+	font-style: italic;
+}
+
+.contact-form button {
+	padding: 2% 8%;
+	display: inline-block;
+	background: lightcoral;
+	color: #fff;
+	font-size: 120%;
+	font-weight: 700;
+	border: 1% solid coral;
+	cursor: pointer;
+}
+
+/*FEELINGS PAGES*/ 
+
+.feeling{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.feeling h1{
+    font-weight: bold;
+    padding-top: 10%;
+}
+
+.feeling video{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 5%;
+}
+
+.feeling .shrug-gif{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 5%;
+}
+.feeling h3{
+    text-decoration: underline;
+}
+.feeling h4{
+    padding-bottom: 5%;
+}
+.feeling p{
+    padding-bottom: 5%;
+}
+
+.feeling img{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 5%;
+}
+
+.feeling ul{
+    font-family: "Merriweather";
+    line-height: 1.6;
+}
+
+.feeling .article-section-container{
+    text-align: left;
+    display: block;
+    display: flex;
+    align-items: stretch;
+    justify-items: center;
+    width: 100%;
+}
+
+.feeling iframe{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 5%;
+}
+
+
 
