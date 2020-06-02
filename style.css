@@ -543,5 +543,17 @@ p{
        	width: 100%;
 	text-align: center;
     }
+	
+    .team{
+        text-align: center;
+        display: block;
+    }
+
+     .team .person-card{
+        width: 100%;
+        padding: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
