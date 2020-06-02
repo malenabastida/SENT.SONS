@@ -500,15 +500,31 @@ p{
     .top-article{
         margin-left: 5%;
         margin-right: 5%;
+	padding-bottom: 10%;
     }
+	
     .articles-section-container {
-        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+	text-align: center;
         display: block;
     }
 
     .article-item {
-        width: 100%;
+        width: 80%;
         padding: 5%;
     }
+	
+    .footer-section a{
+        display: block;
+    }
+
+    .social-links li{
+        display: block;
+        list-style-type: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+    }
+
 }
 
