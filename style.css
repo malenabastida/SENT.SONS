@@ -538,9 +538,10 @@ p{
     }
 	
     .feeling iframe{
-        margin-left: 5%;
+        margin-left: 2%;
         margin-right: 5%;
         width: 100%;
+	text-align:center;
     }
 
     .feeling .article-section-container{
@@ -548,7 +549,6 @@ p{
         display: block;
         width: 100%;
         padding: 5%;
-        margin-left: 5%;
         margin-right: 8%;
     }
 
