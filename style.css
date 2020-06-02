@@ -484,3 +484,31 @@ p{
 
 
 
+/*Responsive MEDIA Styles*/
+
+    /* Small Mobile */
+
+@media (max-width: 500px) {
+
+    .header-section{
+        float: none;
+        display: block;
+        text-align: center;
+        padding: 2%;
+    }
+
+    .top-article{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .articles-section-container {
+        text-align: center;
+        display: block;
+    }
+
+    .article-item {
+        width: 100%;
+        padding: 5%;
+    }
+}
+
