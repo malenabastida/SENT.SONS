@@ -150,7 +150,6 @@ p{
 /*TOP ARTICLE*/ 
 
 .top-article{
-    background-image: radial-gradient(circle, rgb(230, 171, 207), rgb(170, 212, 247));
     padding-top: 5%;
     position: relative;
     text-align: center;
